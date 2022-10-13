@@ -1,0 +1,51 @@
+body{
+    /* Rectangle 2271 */
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    /* gradient */
+    background: linear-gradient(180deg, rgba(255, 80, 0, 0.0289474) 0%, rgba(255, 80, 0, 0.12) 100%);
+}
+.tieude{
+    position: absolute;
+    width: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 28px;
+    /* identical to box height, or 72px */
+    text-align: center;
+    float: left;
+}
+.tieude .text1{
+    margin-left: 25%;
+    width: 50%;
+    color: #053865;
+}
+.tieude .text1 span{
+    width: 50%;
+    color: #F05323;
+}
+.tieude .text2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 15px;
+    color: #5C5C5C;
+
+}
+.content1{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+.content1 .row1{
+    flex: 1;
+    background-color: #F05323;
+}
+.content1 .row2{
+    flex: 2;
+    background-color:gray ;
+}
